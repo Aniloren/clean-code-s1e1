@@ -13,7 +13,8 @@
 .header img {
   width: 100%;
 }
-.header .more-inf {
+.header,
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -39,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-list_item, .section-name {
+.task-list_item,
+.section-name {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
